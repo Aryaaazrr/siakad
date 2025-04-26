@@ -22,5 +22,9 @@ class DatabaseSeeder extends Seeder
             'password'          => Hash::make('adminapaan'),
             'no_wa'          => '6287863302407',
         ]);
+
+        $this->call([
+            DosenSeeder::class
+        ]);
     }
 }
