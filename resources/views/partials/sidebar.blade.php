@@ -34,24 +34,62 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="{{ route('portofolio') }}" class="nav-link">
+                            <a href="{{ route('dosen') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Portofolio</p>
+                                <p>Dosen</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('client') }}" class="nav-link">
+                            <a href="{{ route('mata-kuliah') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Client</p>
+                                <p>Mata Kuliah</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ route('blog') }}" class="nav-link">
+                            <a href="{{ route('ruangan') }}" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
-                                <p>Blog</p>
+                                <p>Ruangan</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('golongan') }}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Golongan</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('jadwal') }}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Jadwal</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('pengampu') }}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Pengampu</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('mahasiswa') }}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Mahasiswa</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ route('krs') }}" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>KRS</p>
                             </a>
                         </li>
                     </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('presensi') }}" class="nav-link">
+                        <i class="nav-icon fas fa-chart-pie"></i>
+                        <p>
+                            Presensi Mahasiswa
+                        </p>
+                    </a>
                 </li>
                 <li class="nav-header">PENGATURAN</li>
                 <li class="nav-item">
